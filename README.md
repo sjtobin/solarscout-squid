@@ -2,7 +2,7 @@
 
 Ubuntu-based [Squid](https://www.squid-cache.org/) 7.3 image (made for SolarScout), with reproducible build and healthcheck
 
-This repository contains the files needed to build the [standalone Squid image](https://hub.docker.com/repository/docker/sjtobin/solarscout-squid/general) used to route SolarScout's outbound traffic via proxy. Squid is a forward proxy for outbound HTTP/HTTPS traffic. Here, Squid 7.3 is built in two stages from a pinned upstream source in Ubuntu 24.04.
+This repository contains the files needed to build the standalone Squid image, available [here](https://hub.docker.com/repository/docker/sjtobin/solarscout-squid/general) on [Dockerhub](https://hub.docker.com/) used to route SolarScout's outbound traffic via proxy. Squid is a forward proxy for outbound HTTP/HTTPS traffic. Here, Squid 7.3 is built in two stages from a pinned upstream source in Ubuntu 24.04.
 
 ## Features
  - Squid 7.3 built from pinned upstream source
